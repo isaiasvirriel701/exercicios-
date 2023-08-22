@@ -1,0 +1,45 @@
+/* Isaias Virriel
+
+*1.resposta
+o console vai vai imprimir o numero 10 e o numero 5;
+
+*2. resposta
+o console vai imprimir uma sequencia de tres numeros 10;
+
+*3. resposta
+A)let horasTrabalhadas  B)let salario 
+*/
+
+let nome;
+let idade;
+console.log(typeof nome);
+
+
+
+/* a variavel foi impressa com o tipo "indefinida" pois a variavel esta vazia;
+*/
+nome = "isaias";
+idade = 16;
+console.log(typeof nome);
+
+/* a o tipo da variavel e string.
+*/
+console.log("ola",nome, "voce tem",idade,"anos");
+
+const pergunta1 = true
+const pergunta2 = false
+const pergunta3 = true
+
+console.log("esta de tenis hoje?", pergunta1);
+console.log("esta nublado o dia?", pergunta2);
+console.log("esta com sol hoje?", pergunta3);
+
+let a = 10;
+let b = 25;
+//a = b;
+//console.log(a,b);
+let c;
+c=a;
+a=b;
+b=c;
+console.log(a,b);
